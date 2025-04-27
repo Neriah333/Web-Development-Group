@@ -1,1 +1,26 @@
-
+body{
+  border:2px;
+  margin-top:100px;
+  margin-top: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+  justify-content: center;
+}
+.Portfolio{
+  background-color: midnightblue;
+  margin: 10px 25px 75px 25px;
+  padding: 10px 150px 75px 150px;
+}
+.Biography{
+  margin: 10px 150px 75px 150px;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: gainsboro;
+}
+.h3 {
+  justify-content: center;
+}
