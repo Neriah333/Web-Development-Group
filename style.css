@@ -7,7 +7,7 @@ body{
   justify-content: center;
 }
 .Portfolio{
-  background-color: midnightblue;
+  background-color: #f0f0f0;
   margin: 10px 25px 75px 25px;
   padding: 10px 150px 75px 150px;
 }
@@ -18,9 +18,197 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
-  background-color: gainsboro;
+  padding: 75px 100px 75px 150px;
+  background-color: #f1f1f1;
+
 }
-.h3 {
+.item1 {
+  text-align: center;
+}
+.item {
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  height: 125px;
+  width: 700px;
+}
+.skills {
+  padding: 75px 100px 75px 150px;
+  display: block;
+}
+
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 10%;
+  background-color: #f5f7f6;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px 60px;
+  flex: 1;
+}
+
+.feature {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.feature-icon {
+  color: #007b63;
+  font-size: 1.5rem;
+  margin-top: 5px;
+}
+
+.feature-text h4 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #222;
+}
+
+.feature-text p {
+  margin: 5px 0 0;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.person-image {
+  flex: 1;
+  text-align: center;
+}
+
+.person-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+@media (max-width: 900px) {
+  .section {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 5%;
+  }
+
+  .features {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .feature {
+    justify-content: center;
+  }
+}
+
+
+.stats-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 60px 20px;
+  background-color: #ffffff;
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat-number {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.stat-label {
+  font-size: 0.95rem;
+  color: #777;
+}
+
+@media (max-width: 768px) {
+  .stats-section {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+footer {
+  background-color: #13242B; /* Dark teal background */
+  color: #B3C1C8; /* Light grayish-blue text */
+  padding: 20px 40px; /* Adjust padding as needed */
+}
+
+.top-footer {
+  display: flex;
+  justify-content: space-between; /* Space out logo/info and contact info */
+  align-items: center;
+  margin-bottom: 20px; /* Add some space between the top and bottom sections */
+}
+
+.logo-info {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5em; /* Adjust logo size */
+  margin-right: 10px;
+  color: #80CED7; /* Light blue/teal for the logo */
+}
+
+.logo-info p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.contact-info p {
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+}
+
+.contact-info svg {
+  width: 16px; /* Adjust icon size */
+  height: 16px;
+  margin-right: 5px;
+  fill: #B3C1C8; /* Color for the icons */
+  /* You'll need to add the actual SVG paths here */
+}
+
+.bottom-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.8em; /* Slightly smaller font for the bottom text */
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-left: 15px;
+  color: #B3C1C8;
+  text-decoration: none; /* Remove underlines from links */
+}
+
+.social-icons svg {
+  width: 18px; /* Adjust social icon size */
+  height: 18px;
+  fill: #B3C1C8;
+  /* Add your social media SVG paths here */
+}
+
+.circular-button {
+  width: 30px; /* Adjust size as needed */
+  height: 30px;
+  border-radius: 50%; /* Make it circular */
+  background-color: #80CED7; /* Light blue/teal background */
+  color: #13242B; /* Dark text color */
+  display: flex;
   justify-content: center;
+  align-items: center;
+  font-weight: bold;
 }
