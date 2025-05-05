@@ -6,12 +6,81 @@ body{
   margin-right: 200px;
   justify-content: center;
 }
-.Portfolio{
-  background-color: #f0f0f0;
-  margin: 10px 25px 75px 25px;
-  padding: 10px 150px 75px 150px;
+.body {
+  font-family: 'Poppins', sans-serif;
+  background: url('images/coffe.jpg') no-repeat center center/cover;
+  color: white;
+  background-color: #13242B;
 }
-.Biography{
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 16px;
+}
+#blog{
+  
+  cursor: pointer;
+  border-color: transparent;
+}
+#Pages{
+  border: none;
+  cursor: pointer;
+}
+.btn-hire {
+  background-color: #00d084;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.hero {
+    display: flex;
+    flex-direction: row-reverse; /* reverse if the image was originally on the right */
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 50px;
+    gap: 40px;
+  
+}
+.Watson {
+  font-weight: bold;
+  font-size: 24px;
+}
+.Web {
+  font-size: 60px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.text {
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: #ddd;
+}
+.btn-secondary {
+  background: #333;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  margin-left: 10px;
+}
+img {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 10px
+}
+
+.Biography {
   margin: 10px 150px 75px 150px;
 }
 .flex-container {
